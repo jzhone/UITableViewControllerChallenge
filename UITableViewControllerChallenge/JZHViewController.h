@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JZHViewController : UIViewController
+@interface JZHViewController : UITableViewController
 
 @end
