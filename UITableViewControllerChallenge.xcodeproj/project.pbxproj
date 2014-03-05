@@ -14,13 +14,13 @@
 		E9A9FC7218C7046B00905F36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9FC7118C7046B00905F36 /* main.m */; };
 		E9A9FC7618C7046B00905F36 /* JZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9FC7518C7046B00905F36 /* JZHAppDelegate.m */; };
 		E9A9FC7918C7046B00905F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A9FC7718C7046B00905F36 /* Main.storyboard */; };
-		E9A9FC7C18C7046B00905F36 /* JZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9FC7B18C7046B00905F36 /* JZHViewController.m */; };
 		E9A9FC7E18C7046B00905F36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A9FC7D18C7046B00905F36 /* Images.xcassets */; };
 		E9A9FC8518C7046B00905F36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9FC8418C7046B00905F36 /* XCTest.framework */; };
 		E9A9FC8618C7046B00905F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9FC6518C7046A00905F36 /* Foundation.framework */; };
 		E9A9FC8718C7046B00905F36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A9FC6918C7046A00905F36 /* UIKit.framework */; };
 		E9A9FC8F18C7046B00905F36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9A9FC8D18C7046B00905F36 /* InfoPlist.strings */; };
 		E9A9FC9118C7046B00905F36 /* UITableViewControllerChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9FC9018C7046B00905F36 /* UITableViewControllerChallengeTests.m */; };
+		E9A9FC9C18C705C100905F36 /* JZHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A9FC9B18C705C100905F36 /* JZHViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		E9A9FC7418C7046B00905F36 /* JZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZHAppDelegate.h; sourceTree = "<group>"; };
 		E9A9FC7518C7046B00905F36 /* JZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZHAppDelegate.m; sourceTree = "<group>"; };
 		E9A9FC7818C7046B00905F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9A9FC7A18C7046B00905F36 /* JZHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZHViewController.h; sourceTree = "<group>"; };
-		E9A9FC7B18C7046B00905F36 /* JZHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZHViewController.m; sourceTree = "<group>"; };
 		E9A9FC7D18C7046B00905F36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E9A9FC8318C7046B00905F36 /* UITableViewControllerChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A9FC8418C7046B00905F36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E9A9FC8C18C7046B00905F36 /* UITableViewControllerChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		E9A9FC8E18C7046B00905F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9A9FC9018C7046B00905F36 /* UITableViewControllerChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeTests.m; sourceTree = "<group>"; };
+		E9A9FC9A18C705C100905F36 /* JZHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZHViewController.h; sourceTree = "<group>"; };
+		E9A9FC9B18C705C100905F36 /* JZHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZHViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				E9A9FC7418C7046B00905F36 /* JZHAppDelegate.h */,
 				E9A9FC7518C7046B00905F36 /* JZHAppDelegate.m */,
 				E9A9FC7718C7046B00905F36 /* Main.storyboard */,
-				E9A9FC7A18C7046B00905F36 /* JZHViewController.h */,
-				E9A9FC7B18C7046B00905F36 /* JZHViewController.m */,
+				E9A9FC9A18C705C100905F36 /* JZHViewController.h */,
+				E9A9FC9B18C705C100905F36 /* JZHViewController.m */,
 				E9A9FC7D18C7046B00905F36 /* Images.xcassets */,
 				E9A9FC6C18C7046B00905F36 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A9FC7218C7046B00905F36 /* main.m in Sources */,
-				E9A9FC7C18C7046B00905F36 /* JZHViewController.m in Sources */,
+				E9A9FC9C18C705C100905F36 /* JZHViewController.m in Sources */,
 				E9A9FC7618C7046B00905F36 /* JZHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

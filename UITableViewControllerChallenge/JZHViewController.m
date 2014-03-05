@@ -32,6 +32,16 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+//    self.words = [[NSMutableArray alloc] init];
+//    NSString *words1 = @"I am in section 0";
+//    NSString *words2 = @"another section";
+//    NSString *words3 = [NSString stringWithFormat:@"Cell %i", ];
+//    
+//    [self.words addObject:words1];
+//    [self.words addObject:words2];
+//    [self.words addObject:words3];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,14 +56,20 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    if (section == 0) {
+        return 2;
+    }else if (section == 1){
+        return 1;
+    }else {
+        return 3;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -62,6 +78,27 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+//    self.words = [[NSMutableArray alloc] init];
+//    NSString *words1 = @"I am in section 0";
+//    NSString *words2 = @"another section";
+//    NSString *words3 = [NSString stringWithFormat:@"Cell %i", indexPath.row];
+//    
+//    [self.words addObject:words1];
+//    [self.words addObject:words2];
+//    [self.words addObject:words3];
+//    
+//    cell.textLabel.text = [self.words objectAtIndex:indexPath.row];
+    
+    if (indexPath.section == 0) {
+        cell.textLabel.text = @"I am in section 0";
+        cell.backgroundColor = [UIColor redColor];
+    }else if (indexPath.section == 1){
+        cell.textLabel.text = @"another section";
+        cell.backgroundColor = [UIColor blueColor];
+    }else {
+        cell.textLabel.text =[NSString stringWithFormat:@"Cell %i", indexPath.row];
+        cell.backgroundColor = [UIColor yellowColor];
+    }
     
     return cell;
 }

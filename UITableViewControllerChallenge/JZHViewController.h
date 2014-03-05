@@ -10,4 +10,6 @@
 
 @interface JZHViewController : UITableViewController
 
+//@property (strong, nonatomic) NSMutableArray *words;
+
 @end
